@@ -1,0 +1,20 @@
+---
+title: "Managing a Project"
+format: html
+---
+
+## Introduction
+
+Oftentimes you will find yourself collaborating with others on a Github repo. Here are some tips and tricks to hopefully save you some grief!
+
+https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67
+
+## Repo Collaborator Settings
+
+## Branches
+
+## Command line bail outs!
+
+### Merge
+
+### Overwite

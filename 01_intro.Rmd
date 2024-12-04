@@ -1,0 +1,16 @@
+---
+title: "Introduction"
+format: html
+---
+
+## Why Github beyond R-DAVIS?
+
+You've gotten familiar with the benefits of using Github already - keeping track of your work during this class, pushing your homeworks each week, downloading our tutorial scripts, etc. What about beyond this class? Github offers a flexible, collaborative, and *free* storage of your work that can be very helpful when you want to back up your work or share your files easily with a collaborator. For these reasons, this tutorial focuses on how to use Github for your future R projects!
+
+## Objectives for tutorial
+
+-   Learn how to create a new project repository in Github
+
+-   Project management with multiple collaborators (e.g., branches, merge conflicts, etc.)
+
+-   Additional ways you may use Github repositories: websites, dissertation, add an existing folder to your github

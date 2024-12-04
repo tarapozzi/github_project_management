@@ -1,0 +1,11 @@
+why-github-beyond-r-davis
+objectives-for-tutorial
+introduction
+creating-a-new-repository-in-github
+connecting-an-existing-r-project-on-your-computer-to-github
+introduction-1
+repo-collaborator-settings
+branches
+command-line-bail-outs
+merge
+overwite
