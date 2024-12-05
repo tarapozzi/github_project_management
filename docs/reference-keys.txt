@@ -5,7 +5,3 @@ introduction
 creating-a-new-repo-in-github
 connecting-an-existing-r-project-on-your-computer-to-github
 console-commands
-collaborating-in-github
-introduction-1
-repo-collaborator-settings
-branches
