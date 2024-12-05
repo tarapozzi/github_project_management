@@ -3,7 +3,7 @@ title: "Console Commands"
 format: html
 ---
 
-## Console Commands
+# Console Commands
 
 Using your terminal to talk to Git and get information about how your local R project is interacting with your remote Github repo. Here are some codes I end up using in command line:
 

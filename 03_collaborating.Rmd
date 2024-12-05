@@ -1,7 +1,8 @@
 ---
-title: "Managing a Project"
+title: "Collaborating in Github"
 format: html
 ---
+# Collaborating in Github
 
 ## Introduction
 
@@ -12,9 +13,3 @@ https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e
 ## Repo Collaborator Settings
 
 ## Branches
-
-## Command line bail outs!
-
-### Merge
-
-### Overwite
