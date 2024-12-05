@@ -18,7 +18,7 @@ output:
       edit: https://github.com/tarapozzi/github_project_management/edit/master/%s
 ---
 
-# Overview {-}
+# Overview {.unnumbered}
 
 ## Why Github beyond R-DAVIS?
 
@@ -26,8 +26,6 @@ You've gotten familiar with the benefits of using Github already - keeping track
 
 ## Objectives for tutorial
 
-Learn how to create a new project repository in Github
+-   Learn how to create a new repository in Github & connect existing local R projects
 
-Project management with multiple collaborators (e.g., branches, merge conflicts, etc.)
-
-
+-   Familiarize with Git commands for project management
