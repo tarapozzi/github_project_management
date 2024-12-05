@@ -2,16 +2,18 @@
 title: "Creating a Repository"
 format: html
 ---
+
 # Creating a Github Repository
+
 ## Introduction
 
-This page covers how to create a *new* repository in Github. The first section talks about how to create a repository from scratch in Github. The second section covers the situation where you have want to upload a local repository onto github. This tutorial assumes you have already connected the SSH key from your computer to Github. If not, see this [SSH key tutorial](https://ucd-r-davis.github.io/R-DAVIS/setting_up_git.html).
+This page covers how to create a *new* repository (or **repo** for short) in Github. The first section talks about how to create a repository from scratch in Github. The second section covers the situation where you have want to upload a local repo onto github. This tutorial assumes you have already connected the SSH key from your computer to Github. If not, see this [SSH key tutorial](https://ucd-r-davis.github.io/R-DAVIS/setting_up_git.html).
 
-## Creating a new repository in Github
+## Creating a new repo in Github
 
 \*[*This is largely adapted from Github's help page.*](https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories)\*
 
-These instructions are when you want to create a repository under your Github user profile.
+These instructions are when you want to create a repo under your Github user profile.
 
 1.  Sign into your Github account.
 
@@ -46,7 +48,7 @@ These instructions are when you want to create a repository under your Github us
 
 There may be times where you create a new R project on your local computer and then realize you want to also back this up on Github. Setting up a Github repo is a little different in this situation.
 
-1.  Still go through the process of creating a new repository just as we did in the previous section.
+1.  Still go through the process of creating a new repo just as we did in the previous section.
 
 2.  Open the R project in Rstudio that you would like to add to Github and navigate to *Tools* -\> *Version Control* -\> *Project Setup*
 
@@ -66,34 +68,14 @@ There may be times where you create a new R project on your local computer and t
 
 7.  Now, you'll need to enter some code into terminal to officially connect your local R project to the remote Github repo
 
-    -   Identify the working directory file path (no quotes) & enter the following:
+    -   Now add remote repo to existing local repo
 
-        cd \[insert wd file path\]
+        -   git remote add origin \<GITHUB REPO URL\>
 
-    -   Initiate upstream tracking with the Github repo url
+        -   git remote --verbose
 
-        git remote add origin \[insert github repo url\]
+        -   git remote show origin
 
-    -   Then pull files down onto local R project
+    -   Now set up github to track changes on your local comp
 
-        git pull origin main \*\* this might be *master* instead of *main* depending on what your branch was called when you made your repo
-
-    -   Finally, set up github to track changes on your local comp
-
-        git push -u origin main
-
-8.  Now lets try it out! This time, let's try it from the command line
-
-    -   Add your changes
-
-        git add . \*\*this will add ALL your changes. alternatively, you can specify the changed file
-
-    -   Commit your changes
-
-        git commit -m"insert message"
-
-    -   And finally push!
-
-        git push
-
-9.  Now, head back to your Github repo and verify that the changes when through
+        -   git push -u origin main

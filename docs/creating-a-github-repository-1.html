@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Creating a Github Repository | Managing a Project</title>
+  <meta name="description" content="3 Creating a Github Repository | Managing a Project" />
+  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Creating a Github Repository | Managing a Project" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta name="github-repo" content="tarapozzi" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Creating a Github Repository | Managing a Project" />
+  
+  
+  
+
+<meta name="author" content="Tara Pozzi" />
+
+
+<meta name="date" content="2024-12-04" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="collaborating-via-github.html"/>
+
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Overview</a>
+<ul>
+<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#why-github-beyond-r-davis"><i class="fa fa-check"></i><b>0.1</b> Why Github beyond R-DAVIS?</a></li>
+<li class="chapter" data-level="0.2" data-path="index.html"><a href="index.html#objectives-for-tutorial"><i class="fa fa-check"></i><b>0.2</b> Objectives for tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="creating-a-github-repository.html"><a href="creating-a-github-repository.html"><i class="fa fa-check"></i><b>1</b> Creating a Github Repository</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="creating-a-github-repository.html"><a href="creating-a-github-repository.html#introduction"><i class="fa fa-check"></i><b>1.1</b> Introduction</a></li>
+<li class="chapter" data-level="1.2" data-path="creating-a-github-repository.html"><a href="creating-a-github-repository.html#creating-a-new-repository-in-github"><i class="fa fa-check"></i><b>1.2</b> Creating a new repository in Github</a></li>
+<li class="chapter" data-level="1.3" data-path="creating-a-github-repository.html"><a href="creating-a-github-repository.html#connecting-an-existing-r-project-on-your-computer-to-github"><i class="fa fa-check"></i><b>1.3</b> Connecting an existing R project on your computer to Github</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="collaborating-via-github.html"><a href="collaborating-via-github.html"><i class="fa fa-check"></i><b>2</b> Collaborating via Github</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="collaborating-via-github.html"><a href="collaborating-via-github.html#introduction-1"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="collaborating-via-github.html"><a href="collaborating-via-github.html#repo-collaborator-settings"><i class="fa fa-check"></i><b>2.2</b> Repo Collaborator Settings</a></li>
+<li class="chapter" data-level="2.3" data-path="collaborating-via-github.html"><a href="collaborating-via-github.html#branches"><i class="fa fa-check"></i><b>2.3</b> Branches</a></li>
+<li class="chapter" data-level="2.4" data-path="collaborating-via-github.html"><a href="collaborating-via-github.html#why-github-beyond-r-davis-1"><i class="fa fa-check"></i><b>2.4</b> Why Github beyond R-DAVIS?</a></li>
+<li class="chapter" data-level="2.5" data-path="collaborating-via-github.html"><a href="collaborating-via-github.html#objectives-for-tutorial-1"><i class="fa fa-check"></i><b>2.5</b> Objectives for tutorial</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="creating-a-github-repository-1.html"><a href="creating-a-github-repository-1.html"><i class="fa fa-check"></i><b>3</b> Creating a Github Repository</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="creating-a-github-repository-1.html"><a href="creating-a-github-repository-1.html#introduction-2"><i class="fa fa-check"></i><b>3.1</b> Introduction</a></li>
+<li class="chapter" data-level="3.2" data-path="creating-a-github-repository-1.html"><a href="creating-a-github-repository-1.html#creating-a-new-repository-in-github-1"><i class="fa fa-check"></i><b>3.2</b> Creating a new repository in Github</a></li>
+<li class="chapter" data-level="3.3" data-path="creating-a-github-repository-1.html"><a href="creating-a-github-repository-1.html#connecting-an-existing-r-project-on-your-computer-to-github-1"><i class="fa fa-check"></i><b>3.3</b> Connecting an existing R project on your computer to Github</a></li>
+<li class="chapter" data-level="3.4" data-path="creating-a-github-repository-1.html"><a href="creating-a-github-repository-1.html#introduction-3"><i class="fa fa-check"></i><b>3.4</b> Introduction</a></li>
+<li class="chapter" data-level="3.5" data-path="creating-a-github-repository-1.html"><a href="creating-a-github-repository-1.html#repo-collaborator-settings-1"><i class="fa fa-check"></i><b>3.5</b> Repo Collaborator Settings</a></li>
+<li class="chapter" data-level="3.6" data-path="creating-a-github-repository-1.html"><a href="creating-a-github-repository-1.html#branches-1"><i class="fa fa-check"></i><b>3.6</b> Branches</a></li>
+<li class="chapter" data-level="3.7" data-path="creating-a-github-repository-1.html"><a href="creating-a-github-repository-1.html#command-line-bail-outs"><i class="fa fa-check"></i><b>3.7</b> Command line bail outs!</a>
+<ul>
+<li class="chapter" data-level="3.7.1" data-path="creating-a-github-repository-1.html"><a href="creating-a-github-repository-1.html#merge"><i class="fa fa-check"></i><b>3.7.1</b> Merge</a></li>
+<li class="chapter" data-level="3.7.2" data-path="creating-a-github-repository-1.html"><a href="creating-a-github-repository-1.html#overwite"><i class="fa fa-check"></i><b>3.7.2</b> Overwite</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Managing a Project</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="creating-a-github-repository-1" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">3</span> Creating a Github Repository<a href="creating-a-github-repository-1.html#creating-a-github-repository-1" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="introduction-2" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> Introduction<a href="creating-a-github-repository-1.html#introduction-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This page covers how to create a <em>new</em> repository in Github. The first section talks about how to create a repository from scratch in Github. The second section covers the situation where you have want to upload a local repository onto github. This tutorial assumes you have already connected the SSH key from your computer to Github. If not, see this <a href="https://ucd-r-davis.github.io/R-DAVIS/setting_up_git.html">SSH key tutorial</a>.</p>
+</div>
+<div id="creating-a-new-repository-in-github-1" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Creating a new repository in Github<a href="creating-a-github-repository-1.html#creating-a-new-repository-in-github-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>*<a href="https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories"><em>This is largely adapted from Github’s help page.</em></a>*</p>
+<p>These instructions are when you want to create a repository under your Github user profile.</p>
+<ol style="list-style-type: decimal">
+<li><p>Sign into your Github account.</p></li>
+<li><p>Click on your profile icon in the upper right hand corner and select “Your Repositories”</p></li>
+</ol>
+<p><img src="images/Screen%20Shot%202024-12-04%20at%201.23.28%20PM.png" /></p>
+<ol start="3" style="list-style-type: decimal">
+<li><p>Press the green button that says “New”<img src="images/Screen%20Shot%202024-12-04%20at%201.23.56%20PM.png" /></p></li>
+<li><p>From here, there are lots of specific aspects of the respository you may want to specify:</p>
+<ul>
+<li><em>Repository template:</em> Most often you’ll probably have no template, but this is the spot where you would build a repo based on an existing template if you did have one.</li>
+<li><em>Owner:</em> This is where you specify whether you want to make the repo under your Github username or affiliated organizations.</li>
+<li><em>Repository name:</em> Keep is short and sweet, plus make sure there are no blank spaces in between words</li>
+<li><em>Description:</em> This part is optional, but it will show up in the right-hand column on your project repo so sometimes people will put a quick tl;dr version of the project README here or if the repo links to a website you could put the url here.</li>
+<li><em>Add a README file:</em> I suggest adding a README because essentially is an information document to describe the purpose of the repo &amp; how others may want to use it (if its public or shared with collaborators)</li>
+<li><em>Add .gitignore:</em> I also suggest adding this file to the repo (although in some cases in might not be necessary). You can select the “R” template file from the dropdown menu. This file is helpful if there are any aspects of the repo that you do not want uploaded to Github from your <em>local</em> vesion of the repo (e.g., large or confidential data files, scratch scripts, etc.)</li>
+<li><em>License:</em> This is something to think about with public repositories &amp; how you want others to use your code. Lots of options, definitely do some additional reading if this is something you want to add.</li>
+<li>** Note: You can always manually add a README.md, .gitignore, and license.md later down the road. So some people will just start with a bare bones version of a repo and add these files in as they are ready.</li>
+</ul></li>
+<li><p>Now hit “Create repository” and it will officially add the new repo to your account (or organization if that’s what you selected)</p></li>
+<li><p>Now you can download the repo to your computer. Under the green “Code” button, select “SSH”, and copy the url.</p>
+<p><img src="images/Screen%20Shot%202024-12-04%20at%201.36.25%20PM.png" /></p></li>
+<li><p>Lastly, clone the repo onto your computer by either <em>File</em> -&gt; <em>New Project</em> -&gt; <em>Verision Control</em> -&gt; <em>Git</em> or using terminal:</p>
+<p>git clone <span class="math display">\[insert repo url\]</span></p></li>
+</ol>
+</div>
+<div id="connecting-an-existing-r-project-on-your-computer-to-github-1" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Connecting an existing R project on your computer to Github<a href="creating-a-github-repository-1.html#connecting-an-existing-r-project-on-your-computer-to-github-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>There may be times where you create a new R project on your local computer and then realize you want to also back this up on Github. Setting up a Github repo is a little different in this situation.</p>
+<ol style="list-style-type: decimal">
+<li><p>Still go through the process of creating a new repository just as we did in the previous section.</p></li>
+<li><p>Open the R project in Rstudio that you would like to add to Github and navigate to <em>Tools</em> -&gt; <em>Version Control</em> -&gt; <em>Project Setup</em></p></li>
+<li><p>Click <em>SVN/Git</em> tab and select “git<em>“</em> as the version control system</p></li>
+<li><p>A window will pop up asking you to “Confirm New Git Repository”. Select “Yes”.</p>
+<p><img src="images/Screen%20Shot%202024-12-04%20at%201.48.03%20PM.png" /></p></li>
+<li><p>Another window will pop up saying “Confirm Restart RStudio”. Press “Yes”.</p>
+<p><img src="images/Screen%20Shot%202024-12-04%20at%201.48.17%20PM.png" /></p></li>
+<li><p>After Rstudio reopens, confirm that there is a <em>Git</em> tab in the environment pane</p>
+<p><img src="images/Screen%20Shot%202024-12-04%20at%201.50.31%20PM.png" /></p></li>
+<li><p>Now, you’ll need to enter some code into terminal to officially connect your local R project to the remote Github repo</p>
+<ul>
+<li><p>Identify the working directory file path (no quotes) &amp; enter the following:</p>
+<p>cd <span class="math display">\[insert wd file path\]</span></p></li>
+<li><p>Initiate upstream tracking with the Github repo url</p>
+<p>git remote add origin <span class="math display">\[insert github repo url\]</span></p></li>
+<li><p>Then pull files down onto local R project</p>
+<p>git pull origin main ** this might be <em>master</em> instead of <em>main</em> depending on what your branch was called when you made your repo</p></li>
+<li><p>Finally, set up github to track changes on your local comp</p>
+<p>git push -u origin main</p></li>
+</ul></li>
+<li><p>Now lets try it out! This time, let’s try it from the command line</p>
+<ul>
+<li><p>Add your changes</p>
+<p>git add . **this will add ALL your changes. alternatively, you can specify the changed file</p></li>
+<li><p>Commit your changes</p>
+<p>git commit -m”insert message”</p></li>
+<li><p>And finally push!</p>
+<p>git push</p></li>
+</ul></li>
+<li><p>Now, head back to your Github repo and verify that the changes when through</p></li>
+</ol>
+
+</div>
+<div id="introduction-3" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Introduction<a href="creating-a-github-repository-1.html#introduction-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Oftentimes you will find yourself collaborating with others on a Github repo. Here are some tips and tricks to hopefully save you some grief!</p>
+<p><a href="https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67" class="uri">https://medium.com/@jonathanmines/the-ultimate-github-collaboration-guide-df816e98fb67</a></p>
+</div>
+<div id="repo-collaborator-settings-1" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Repo Collaborator Settings<a href="creating-a-github-repository-1.html#repo-collaborator-settings-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="branches-1" class="section level2 hasAnchor" number="3.6">
+<h2><span class="header-section-number">3.6</span> Branches<a href="creating-a-github-repository-1.html#branches-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+</div>
+<div id="command-line-bail-outs" class="section level2 hasAnchor" number="3.7">
+<h2><span class="header-section-number">3.7</span> Command line bail outs!<a href="creating-a-github-repository-1.html#command-line-bail-outs" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="merge" class="section level3 hasAnchor" number="3.7.1">
+<h3><span class="header-section-number">3.7.1</span> Merge<a href="creating-a-github-repository-1.html#merge" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+</div>
+<div id="overwite" class="section level3 hasAnchor" number="3.7.2">
+<h3><span class="header-section-number">3.7.2</span> Overwite<a href="creating-a-github-repository-1.html#overwite" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="collaborating-via-github.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": false,
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/tarapozzi/github_project_management/edit/master/02_repos.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": "https://github.com/tarapozzi/github_project_management/blob/master/02_repos.Rmd",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/latest.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

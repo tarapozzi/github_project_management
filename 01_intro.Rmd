@@ -12,5 +12,3 @@ You've gotten familiar with the benefits of using Github already - keeping track
 -   Learn how to create a new project repository in Github
 
 -   Project management with multiple collaborators (e.g., branches, merge conflicts, etc.)
-
--   Additional ways you may use Github repositories: websites, dissertation, add an existing folder to your github
