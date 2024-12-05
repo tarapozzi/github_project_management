@@ -40,7 +40,7 @@ These instructions are when you want to create a repo under your Github user pro
 
     ![](images/Screen%20Shot%202024-12-04%20at%201.36.25%20PM.png){width="338"}
 
-7.  Lastly, clone the repo onto your computer by either *File* -\> *New Project* -\> *Verision Control* -\> *Git* or using terminal:
+7.  Lastly, clone the repo onto your computer by either *File* -\> *New Project* -\> *Version Control* -\> *Git* or using terminal:
 
     git clone \<GITHUB REPO URL\>
 
@@ -78,4 +78,5 @@ There may be times where you create a new R project on your local computer and t
 
     -   Now set up github to track changes on your local comp
 
-        -   git push -u origin main
+        -   git branch -M main
+        -   git push --set-upstream origin main
