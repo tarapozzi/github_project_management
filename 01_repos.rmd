@@ -44,39 +44,36 @@ These instructions are when you want to create a repo under your Github user pro
 
     git clone \<GITHUB REPO URL\>
 
-## Connecting an existing R project on your computer to Github
+## Connecting an existing R project on your computer to Github 
 
 There may be times where you create a new R project on your local computer and then realize you want to also back this up on Github. Setting up a Github repo is a little different in this situation.
 
-1.  Still go through the process of creating a new repo just as we did in the previous section.
+1.  Open the R project in Rstudio that you would like to add to Github and navigate to *Tools* -\> *Version Control* -\> *Project Setup*
 
-2.  Open the R project in Rstudio that you would like to add to Github and navigate to *Tools* -\> *Version Control* -\> *Project Setup*
+2.  Click *SVN/Git* tab and select "git*"* as the version control system
 
-3.  Click *SVN/Git* tab and select "git*"* as the version control system
-
-4.  A window will pop up asking you to "Confirm New Git Repository". Select "Yes".
+3.  A window will pop up asking you to "Confirm New Git Repository". Select "Yes".
 
     ![](images/Screen%20Shot%202024-12-04%20at%201.48.03%20PM.png){width="390"}
 
-5.  Another window will pop up saying "Confirm Restart RStudio". Press "Yes".
+4.  Another window will pop up saying "Confirm Restart RStudio". Press "Yes".
 
     ![](images/Screen%20Shot%202024-12-04%20at%201.48.17%20PM.png){width="388"}
 
-6.  After Rstudio reopens, confirm that there is a *Git* tab in the environment pane
+5.  After Rstudio reopens, confirm that there is a *Git* tab in the environment pane
 
     ![](images/Screen%20Shot%202024-12-04%20at%201.50.31%20PM.png){width="405"}
 
-7.  Now, you'll need to enter some code into terminal to officially connect your local R project to the remote Github repo
+6.  Now, you'll need to enter some code into terminal to officially connect your local R project to the remote Github repo
 
     -   Now add remote repo to existing local repo
 
         -   git remote add origin \<GITHUB REPO URL\>
 
-        -   git remote --verbose
-
-        -   git remote show origin
+        -   git remote show origin (can use this to see what git thinks the origin is)
 
     -   Now set up github to track changes on your local comp
 
         -   git branch -M main
-        -   git push --set-upstream origin main
+        -   git pull origin main
+        -   git push -u origin master
